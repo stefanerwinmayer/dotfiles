@@ -1,0 +1,164 @@
+# Slack
+# mas "Slack", id: 803453959cask_args appdir: "/Applications"
+
+# Taps
+tap "caskroom/cask"
+tap "caskroom/versions"
+tap "caskroom/drivers"
+tap "caskroom/fonts"
+
+# Mac App Store command-line interface
+brew "mas"
+
+# Master Password •••| — Get immune to loss.
+mas "Master Password •••| — Get immune to loss.", id: 662763204
+
+# Pages
+mas "Pages", id: 409201541 
+
+# Numbers
+mas "Numbers", id: 409203825
+
+# Keynote
+mas "Keynote", id: 409183694
+
+# Slack
+# mas "Slack", id: 803453959
+
+# Haskell — Functional Programming Platform
+# mas "Haskell — Functional Programming Platform", id: 841285201
+
+# Ka-Block!
+mas "Ka-Block!", id: 1335413823
+
+# Microsoft Remote Desktop 8
+# mas "Microsoft Remote Desktop 8", id: 715768417
+
+# AdoptOpenJDK 8 
+cask "adoptopenjdk8" unless system "/usr/libexec/java_home --failfast"
+
+# Spectacle
+cask "spectacle"
+
+# IntelliJ IDEA Ultimate
+# cask "intellij-idea"
+
+# Vagrant
+# cask "vagrant"
+
+# Oracle VirtualBox
+# cask "virtualbox"
+
+# Google Chrome
+cask "google-chrome"
+
+# Franz
+cask "franz"
+
+# Amazon Music
+cask "amazon-music"
+
+# Sonos
+cask "sonos"
+
+# Skype
+cask "skype"
+
+# Calibre
+cask "calibre"
+
+# Anki
+# cask "anki"
+
+# ioquake3
+# cask "ioquake3"
+
+# Command-line tool to interact with exercism.io
+# brew "exercism"
+
+# Numi
+# cask "numi"
+
+# Build system based on the Groovy language
+# brew "gradle"
+
+# Android Studio
+# cask "android-studio"
+
+# Eclipse IDE for Java EE Developers
+# cask "eclipse-jee"
+
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+
+# Steam
+# cask "steam"
+
+# Maven
+# brew "maven"
+
+# leiningen
+# brew "leiningen"
+
+# Citrix Receiver
+# cask "citrix-receiver"
+
+# The Haskell Tool Stack
+# brew "haskell-stack"
+
+# iTerm2
+cask "iterm2"
+
+# Meslo for Powerline
+cask "font-meslo-for-powerline"
+
+# Manage multiple Node.js versions
+# brew "nvm"
+
+# JavaScript package manager
+# brew "yarn"
+
+# Adobe Flash Player PPAPI (plugin for Opera and Chromium)
+# cask "flash-ppapi"
+
+# Instant coding answers via the command-line
+brew "howdoi"
+
+# OverSight
+cask "oversight"
+
+# Sublime Text
+# cask "sublime-text"
+
+# CheatSheet
+# cask "cheatsheet"
+
+# ProtonVPN
+# cask "protonvpn"
+
+# The Rust toolchain installer
+# brew "rustup-init"
+
+# Build tool for Scala projects
+brew "sbt"
+
+# Internet file retriever
+brew "wget"
+
+# Extract, view, and test RAR archives
+brew "unrar"
+
+# Test various flash cards
+brew "f3"
+
+# stow
+brew "stow"
+
+# MEGAsync
+cask "megasync"
+
+# IntelliJ IDEA Community Edition
+cask "intellij-idea-ce"
+
+# Negative
+mas "Negative", id: 1378123825
