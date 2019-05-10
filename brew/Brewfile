@@ -1,5 +1,4 @@
-# Slack
-# mas "Slack", id: 803453959cask_args appdir: "/Applications"
+cask_args appdir: "/Applications"
 
 # Taps
 tap "caskroom/cask"
