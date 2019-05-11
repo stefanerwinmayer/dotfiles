@@ -18,6 +18,8 @@ brew "sbt"
 brew "stow"
 brew "unrar"
 brew "wget"
+brew "zsh"
+brew "zsh-completions"
 
 # brew "exercism"
 # brew "haskell-stack"
