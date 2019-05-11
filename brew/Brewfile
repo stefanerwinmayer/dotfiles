@@ -20,6 +20,7 @@ brew "unrar"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 # brew "exercism"
 # brew "haskell-stack"
