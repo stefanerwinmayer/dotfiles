@@ -94,3 +94,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Fish shell like syntax highlighting for zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Fuck alias
+eval $(thefuck --alias)
