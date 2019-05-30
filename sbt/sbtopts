@@ -26,7 +26,7 @@
 # set memory options
 #
 #-mem   <integer>
-mem 2048
+-mem 2048
 
 # Use local caches for projects, no sharing.
 #
