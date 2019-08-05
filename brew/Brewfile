@@ -3,15 +3,17 @@ cask_args appdir: "/Applications"
 # Taps
 
 tap "caskroom/cask"
-tap "caskroom/versions"
 tap "caskroom/drivers"
 tap "caskroom/fonts"
+tap "scalacenter/bloop"
+tap "caskroom/versions"
 
 
 # Homebrew
 
 brew "ammonite-repl"
 brew "awscli"
+brew "bloop"
 brew "f3"
 brew "howdoi"
 brew "jq"
