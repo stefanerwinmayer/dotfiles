@@ -13,6 +13,7 @@ tap "caskroom/versions"
 
 brew "ammonite-repl"
 brew "awscli"
+brew "circleci"
 brew "credstash"
 brew "bfg"
 brew "bloop"
