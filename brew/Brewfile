@@ -28,6 +28,8 @@ brew "stow"
 brew "thefuck"
 brew "unrar"
 brew "wget"
+brew "yarn"
+brew "yarn-completion"
 brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
@@ -36,7 +38,6 @@ brew "zsh-syntax-highlighting"
 # brew "haskell-stack"
 # brew "nvm"
 # brew "rustup-init"
-# brew "yarn"
 
 
 # Homebrew Casks
@@ -59,6 +60,7 @@ cask "skype"
 cask "sonos"
 cask "spectacle"
 cask "steam"
+cask "zerotier-one"
 
 
 # cask "anki"
