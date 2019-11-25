@@ -21,6 +21,7 @@ brew "f3"
 brew "howdoi"
 brew "jq"
 brew "mas"
+brew "nvm"
 brew "p7zip"
 brew "sbt"
 brew "shellcheck"
@@ -36,7 +37,6 @@ brew "zsh-syntax-highlighting"
 
 # brew "exercism"
 # brew "haskell-stack"
-# brew "nvm"
 # brew "rustup-init"
 
 
