@@ -53,6 +53,7 @@ cask "font-meslo-for-powerline"
 cask "franz"
 cask "intellij-idea-ce"
 cask "iterm2"
+cask "keka"
 cask "megasync"
 cask "oversight"
 cask "postman"
@@ -71,8 +72,6 @@ cask "zerotier-one"
 # cask "protonvpn"
 # cask "sublime-text"
 # cask "vagrant"
-# cask "virtualbox"
-
 
 # App Store
 
