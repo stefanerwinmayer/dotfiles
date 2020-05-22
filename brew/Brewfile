@@ -72,7 +72,6 @@ cask "zerotier-one"
 # cask "protonvpn"
 # cask "sublime-text"
 # cask "vagrant"
-# cask "whatsapp"
 
 # App Store
 
@@ -84,6 +83,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "SomaFM Radio Player", id: 449155338
+mas "WhatsApp Desktop", id: 1147396723
 
 # mas "Haskell — Functional Programming Platform", id: 841285201
 # mas "Negative", id: 1378123825
