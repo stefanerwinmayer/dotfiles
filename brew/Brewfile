@@ -61,6 +61,7 @@ cask "skype"
 cask "sonos"
 cask "spectacle"
 cask "steam"
+cask "visual-studio-code"
 cask "zerotier-one"
 
 
