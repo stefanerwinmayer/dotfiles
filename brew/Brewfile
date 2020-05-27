@@ -19,8 +19,11 @@ brew "f3"
 brew "howdoi"
 brew "jq"
 brew "mas"
+brew "mutt" 
 brew "nvm"
 brew "p7zip"
+brew "raylib"
+brew "rustup-init"
 brew "sbt"
 brew "shellcheck"
 brew "stow"
@@ -33,16 +36,13 @@ brew "zsh"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
-# brew "exercism"
-# brew "haskell-stack"
-# brew "rustup-init"
-
 
 # Homebrew Casks
 
 cask "1password"
 cask "adoptopenjdk8" unless system "/usr/libexec/java_home --failfast"
 cask "amazon-music"
+cask "anki"
 cask "authy"
 cask "calibre"
 cask "discord"
@@ -52,6 +52,7 @@ cask "font-meslo-for-powerline"
 cask "franz"
 cask "intellij-idea-ce"
 cask "iterm2"
+cask "karabiner-elements"
 cask "keka"
 cask "megasync"
 cask "oversight"
@@ -64,17 +65,9 @@ cask "visual-studio-code"
 cask "zerotier-one"
 
 
-# cask "anki"
-# cask "cheatsheet"
-# cask "flash-ppapi"
-# cask "google-chrome"
-# cask "numi"
-# cask "protonvpn"
-# cask "sublime-text"
-# cask "vagrant"
-
 # App Store
 
+mas "Haskell — Functional Programming Platform", id: 841285201
 mas "Ka-Block!", id: 1335413823
 mas "Keynote", id: 409183694
 mas "Master Password •••| — Get immune to loss.", id: 662763204
@@ -84,6 +77,3 @@ mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "SomaFM Radio Player", id: 449155338
 mas "WhatsApp Desktop", id: 1147396723
-
-# mas "Haskell — Functional Programming Platform", id: 841285201
-# mas "Negative", id: 1378123825
