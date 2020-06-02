@@ -1,0 +1,22 @@
+{
+	// Controls auto save of dirty editors. Read more about autosave [here](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save).
+	//  - off: A dirty editor is never automatically saved.
+	//  - afterDelay: A dirty editor is automatically saved after the configured `files.autoSaveDelay`.
+	//  - onFocusChange: A dirty editor is automatically saved when the editor loses focus.
+	//  - onWindowChange: A dirty editor is automatically saved when the window loses focus.
+	"files.autoSave": "onFocusChange",
+	// Enable the [CamelCaseMotion](https://github.com/bkad/CamelCaseMotion) plugin for Vim.
+	"vim.camelCaseMotion.enable": true,
+	// Enable the [EasyMotion](https://github.com/easymotion/vim-easymotion) plugin for Vim.
+	"vim.easymotion": true,
+	// Uses a hack to move around folds properly.
+	"vim.foldfix": true,
+	// What key should `<leader>` map to in remappings?
+	"vim.leader": "<Space>",
+	// Use key mappings from a .vimrc file.
+	"vim.vimrc.enable": true,
+	// Path to a Vim configuration file. If unset, it will check for $HOME/.vimrc or $HOME/_vimrc.
+	"vim.vimrc.path": "$HOME/.vimrc.local",
+	// Specifies the color theme used in the workbench.
+	"workbench.colorTheme": "Solarized Dark",
+}
