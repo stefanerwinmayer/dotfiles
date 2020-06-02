@@ -1,0 +1,281 @@
+{
+    "title": "stefanem's Pinkie Heaven",
+    "rules": [
+        {
+           "description": "df to Left Shift",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                               "key_code": "d"
+                            },
+                            {
+                                "key_code": "f"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_shift"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "sd to Left Control",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "s"
+                            },
+                            {
+                                "key_code": "d"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_control"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "ef to Tab",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "e"
+                            },
+                            {
+                                "key_code": "f"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "tab"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "wf to Escape",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "w"
+                            },
+                            {
+                                "key_code": "f"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "dv to Left GUI",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "d"
+                            },
+                            {
+                                "key_code": "v"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_gui"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "sv to Left Alt",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "s"
+                            },
+                            {
+                                "key_code": "v"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_alt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "jk to Right Shift",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "j"
+                            },
+                            {
+                                "key_code": "k"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_shift"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "kl to Right Control",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "k"
+                            },
+                            {
+                                "key_code": "l"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_control"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "ji to Enter",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "j"
+                            },
+                            {
+                                "key_code": "i"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "return_or_enter"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "jo to Backspace",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "j"
+                            },
+                            {
+                                "key_code": "o"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_or_backspace"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "mk to Right GUI",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "m"
+                            },
+                            {
+                                "key_code": "k"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_gui"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "ml to Right Alt",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "m"
+                            },
+                            {
+                                "key_code": "l"
+                            }
+                        ]
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_alt"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
