@@ -2,14 +2,14 @@
     "title": "stefanem's Pinkie Heaven",
     "rules": [
         {
-           "description": "df to Left Shift",
+            "description": "df to Left Shift",
             "manipulators": [
                 {
                     "type": "basic",
                     "from": {
                         "simultaneous": [
                             {
-                               "key_code": "d"
+                                "key_code": "d"
                             },
                             {
                                 "key_code": "f"
@@ -272,6 +272,90 @@
                     "to": [
                         {
                             "key_code": "right_alt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "CTRL+h to Left",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "h",
+                        "modifiers": {
+                            "mandatory": [
+                                "control"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "CTRL+j to Down",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "j",
+                        "modifiers": {
+                            "mandatory": [
+                                "control"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "down_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "CTRL+k to Up",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "k",
+                        "modifiers": {
+                            "mandatory": [
+                                "control"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "up_arrow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "CTRL+l to Right",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "l",
+                        "modifiers": {
+                            "mandatory": [
+                                "control"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow"
                         }
                     ]
                 }
