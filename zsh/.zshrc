@@ -2,6 +2,8 @@
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
+# As advised by 'brew doctor'
+export PATH="/usr/local/sbin:$PATH"
 # set JAVA_HOME
 export JAVA_HOME=$(/usr/libexec/java_home)
 # Fish shell like syntax highlighting for zsh
