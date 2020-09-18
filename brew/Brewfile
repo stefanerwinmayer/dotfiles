@@ -10,10 +10,7 @@ tap "homebrew/cask-versions"
 
 # Homebrew
 
-brew "ammonite-repl"
 brew "awscli"
-brew "circleci"
-brew "credstash"
 brew "bfg"
 brew "f3"
 brew "howdoi"
