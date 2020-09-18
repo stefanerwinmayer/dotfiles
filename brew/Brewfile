@@ -39,7 +39,6 @@ brew "zsh-syntax-highlighting"
 
 # Homebrew Casks
 
-cask "1password"
 cask "adoptopenjdk8" unless system "/usr/libexec/java_home --failfast"
 cask "amazon-music"
 cask "anki"
