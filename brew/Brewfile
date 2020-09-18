@@ -65,7 +65,6 @@ cask "zerotier-one"
 
 # App Store
 
-mas "Haskell — Functional Programming Platform", id: 841285201
 mas "Ka-Block!", id: 1335413823
 mas "Keynote", id: 409183694
 mas "Master Password •••| — Get immune to loss.", id: 662763204
