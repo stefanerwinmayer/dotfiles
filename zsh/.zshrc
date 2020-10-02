@@ -1,6 +1,9 @@
 # https://docs.brew.sh/Shell-Completion
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
 fi
 # As advised by 'brew doctor'
 export PATH="/usr/local/sbin:$PATH"
