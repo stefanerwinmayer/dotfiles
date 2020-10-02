@@ -11,6 +11,7 @@ tap "homebrew/cask-versions"
 # Homebrew
 
 brew "bfg" // Remove sensitive information from git history
+brew "f3" // Test SD Cards
 brew "howdoi"
 #brew "jq"
 brew "mas"
