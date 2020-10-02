@@ -10,8 +10,7 @@ tap "homebrew/cask-versions"
 
 # Homebrew
 
-brew "bfg"
-brew "f3"
+brew "bfg" // Remove sensitive information from git history
 brew "howdoi"
 #brew "jq"
 brew "mas"
