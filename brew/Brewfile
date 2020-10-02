@@ -34,7 +34,7 @@ brew "zsh-syntax-highlighting"
 
 cask "adoptopenjdk8" unless system "/usr/libexec/java_home --failfast"
 cask "amazon-music"
-cask "anki"
+#cask "anki"
 cask "authy"
 cask "calibre"
 cask "discord"
