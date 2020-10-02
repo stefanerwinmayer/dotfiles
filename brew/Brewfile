@@ -10,7 +10,6 @@ tap "homebrew/cask-versions"
 
 # Homebrew
 
-brew "awscli"
 brew "bfg"
 brew "f3"
 brew "howdoi"
