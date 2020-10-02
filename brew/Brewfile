@@ -48,7 +48,7 @@ cask "google-chrome"
 cask "intellij-idea-ce"
 cask "iterm2"
 cask "karabiner-elements"
-cask "keka"
+cask "keka" // File archiver
 cask "megasync"
 cask "oversight"
 cask "postman"
