@@ -13,11 +13,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Fuck alias
 eval $(thefuck --alias)
-# NVM - Manage multiple Node.js versions
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
-
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
