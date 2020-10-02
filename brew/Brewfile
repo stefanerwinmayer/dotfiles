@@ -62,6 +62,12 @@ cask "visual-studio-code"
 #cask "wireshark"
 cask "zerotier-one"
 
+# React Native
+brew "watchman"
+cask "cocoapods"
+cask "android-studio"
+mas "Xcode", id: 497799835
+
 
 # App Store
 
