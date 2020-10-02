@@ -15,6 +15,7 @@ brew "f3" // Test SD Cards
 brew "howdoi"
 #brew "jq"
 brew "mas"
+brew "maven"
 brew "nvm"
 brew "p7zip"
 #brew "ranger"
