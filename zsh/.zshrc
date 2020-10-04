@@ -13,6 +13,12 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Fuck alias
 eval $(thefuck --alias)
+# https://reactnative.dev/docs/environment-setup
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
